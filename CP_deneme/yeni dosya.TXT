@@ -1,0 +1,37 @@
+Buradaki örnekte 2 adet proje dosyası bulunmakta. P1 projesinde bulunan bir sınıf P2 de çağırılmaktadır. Bu olayı consol üzerinden yapmak oldukça zulümdü fakat değilmiş. Çok basit bir ayarı varmış. cp eklemek
+classpaht eklemek. Yani dışarıdan bir yol belirterek import edilecek class'ı bildiriyoruz.
+
+Önce P1'in içerisinde src klasöründe bulunan YanSinif.java dosyasını incele. Sonra bu sınıfı derlemek için termeinale:
+	
+	> javac -d ../clases YanSinif.java
+	
+	Yaz. Burada -d etiketi oluşturulacak olac class uzantılı dosyanın nereye kayıt edileceği ile alalıdır.
+	
+	Sonrasında P2 > src içerisinde bulunan MainClass.java dosyasını incele. Bu MainClass.java dosyasında dikkat edileceği üzre YanSinif.java nesnesinden bir adet değişken tanımlanmış olup ardından çalıştırılmıştır. 
+	
+	MainClass.java 'yı klasik şekilde derlemeye çalışırsak hata alırız. Muhtemlende YanSinif nesnesini bulamadım falan diyecektir. İşte bu yüzden derlemek için classpath göstermek zorundayız. -cp etiketi ile gösteriliyor.
+	
+	derlemek için P2 src klasöründe olmalıyız. Sonrasında aşağıdaki komut gibi yazacağız.
+	
+	
+	> javac -cp ../../P1/clases: -d ../clases MainClass.java
+	
+	Önce ClassPath yolu belirtilir. Bu klasörden iki üst klasöre çık, ordan P1/clases klasörüne bak. Dikkat edileceği üzere ':' ile berlirtilmiştir. (MAC'de ";" imiş) sonrasında oluşturulacak olan .class uzantılı dosyanın nereye kayıt edileceği belirtilmiştir. Bir üst klasörde gir oradan classes klasörine kayıt et. En sonra ise hangi dosyayı derleyeceğini gösterdik
+	
+	
+	Simdi ise sırada yazdığımız programı çalıştırmak var. Haliyle içerisinde main fonksiyonu olan program çalıştırılacaktır. Bunun için .class uzantısını kayıt ettiğimiz yola gidelim. Bu proje için P2 > classes Bu yolda iken terminale:
+	
+	>java -cp ../../P2/clases: MainClass.class
+	
+	Yazarak çalıştıracağız. 
+	
+	-cp etiketi ile yeniden import sınıfını göstermek zorundayız. 
+	
+	
+	
+
+
+
+
+
+https://www.geeksforgeeks.org/run-java-class-file-different-directory/

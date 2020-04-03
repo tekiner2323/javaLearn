@@ -1,0 +1,1 @@
+Bu uygulama bir giriş uyulaması olup tamamen console üzerinden yapılmıştır. Açıklanacak fazla bir detay yoktur.

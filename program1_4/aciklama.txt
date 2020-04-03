@@ -1,0 +1,1 @@
+Öncelikle basicWindowMonitor clası yazıldı. Sonrasında bu sınıf hosgeldinisSWF sınıfından cağrılarak kullanıldı ana amaç burada başka sınıfları başka yerlerden kullanabilindiğini göstermektir.
