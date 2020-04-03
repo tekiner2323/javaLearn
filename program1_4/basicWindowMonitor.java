@@ -1,5 +1,3 @@
-package program1_4;
-
 import java.awt.event.*;
 import java.awt.Window;
 
