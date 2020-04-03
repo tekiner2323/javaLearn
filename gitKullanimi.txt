@@ -1,0 +1,82 @@
+Öncelikle git yazılımını kuruyorsun bunun için
+
+Linux: terminel'e
+	>sudo apt install git
+Yazılması yeter. İşlemler otomatik yapılacaktır.
+
+Windows: Git sitesine gidilir. Setup dosyası indirilir kurulum yapılır. 
+
+Kurulum işlemi bittikten sonra windows'da ve Linuxta aynı işlemler olması kaydı ile (Windows üzerinde denemedim) git' yazılımını confige etmemiz gerekmektedir. (programın yüklenip yüklenmediğini test etmek için terminale "git --version" yazılarak bakılabilir)
+
+Bunun için ilk önce:
+
+git config --global user.name "Ertuğrul Tekin"
+git config --global user.email "ertugrul_tekin.23@hotmail.com"
+
+bu ayarlamaların olup olmadığını kontrol etmek için tırnak içerisindeki yerleri silerek kontrol edebiliriz. 
+
+ör: > git congif --global user.name
+Ertuğrul Tekin
+
+Şeklinde....
+
+
+Şimdi sırada artık proje eklemek kalıyor. Bunu için öncelikle bulunan kalsöre gidilir.
+
+> git init
+
+Bu komut ile klasörde bir izlenme başlatacaktır.
+
+> git add . 
+
+Bu komut ile tüm dizin proje dosyası haline gelecektir.
+"." yerine dizin yolu veya dosya adı belirterek git'e onları eklemeyi sağlayabilirsiniz. Bu komut aynı zamanda projeyi herhangi bir yere göndermez. Sadece izleme noktaları oluşturur ve izlerken nelerin değişitiğini gösterebilmek için staging area denilen tampon bir hafızada saklar.
+
+> git commit -m "Commit Adı"
+
+Şeklince yapılan değişiklikler kayıt edilmiş olur.
+
+> git log
+
+(git log) Bu komut ile git projesinde yapılan değişiklikleri gösterir.
+
+
+Projemizizde bağzı değişiklikler yaptık ve nelerin değiştini görmek için 
+
+> git status
+
+komutu kullanılır.
+
+
+Projemizde yaptığımız değişikliklerin detaylarını görmek istersek ise 
+
+>git diff
+
+komutu kullanılır.
+
+
+Deteylar için aşağıdaki link linke bakılabilir. 
+
+
+
+
+
+
+
+
+
+Kaynak:
+https://medium.com/gokhanyavas/git-nedir-git-kullan%C4%B1m%C4%B1-614867d253a4
+
+
+
+
+
+
+
+
+
+
+
+
+
