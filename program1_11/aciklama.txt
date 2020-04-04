@@ -1,0 +1,1 @@
+apletlerle fazla uğraşmayacağım için bu örnek hakkında yazabileceğim fazla bir şey yoktur. Lakin şunu söyleyebilirim. Applet'ler tamamen web üzerinde çalışan uygulamarlardır. Takip ettiğim kitaba göre ileride yeniden birlikte olacaz.
