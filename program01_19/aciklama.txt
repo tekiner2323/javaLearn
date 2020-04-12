@@ -1,0 +1,34 @@
+
+
+	Programlamada en önemli yapılardan birisi karar verme noktalarıdır. Programımızı en fazla bu şekilde yönetiriz. Çünkü birşey olmuşsa birşey yaparız. Su kaynamışsa çayı demleriz. Yağ kızmışsa üzerine patatesi dökeriz. İşte tıpkı bunun gibi programımızda da bazı şeyleri yapmak durumundayız ki programımızı yönetelim. 
+
+
+	Bu karar noktalarında en çok kullanılan ve en if yapısı
+	
+	
+	if - elseif - else
+	
+	if(şart)
+	{
+		Yapılması gerekenleri yap
+	}
+	elseif(şart)
+	{
+		Üstteki şart sağlanmıyorsa ve bu şart sağlanıyorsa yapılması gerekenleri yap
+	}
+	elseif(şart)
+	{
+		Üstteki şart sağlanmıyorsa ve bu şart sağlanıyorsa yapılması gerekenleri yap
+	}
+	else
+	{
+		Hiç bir şart sağlanmıyorsa bu işlemi yapacaksın. 
+	}
+	
+	
+	Temel çalışma mantığı bu şekildedir. Şimdi ise örnek üzerinde inceleyelim.
+	
+	
+	
+	
+	

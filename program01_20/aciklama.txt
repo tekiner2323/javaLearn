@@ -1,0 +1,25 @@
+
+
+Bu bölümde ise bir şartın doğruluğunu iki farklı şarta bağlayacaz. Gaz var ve çakmağın var ise tüpü yak gibi iki şart. Bu tip şartlar boolean cebrini anlattığımız konudaki mantıksal operatörlerle birbirine bağlanırlar. 
+
+Bir örnek üzerinde bunu anlatalım örneğin basit olması üzerine anlatalım
+Bir sayının hangi 10luklar arsında olduğunu anlayan bir kontrol progamı yazmış olalım.
+
+15 sayısı 10'luk sayı dilimi içerisinde 
+22 sayısı 20'lik sayı dilimi içerisinde
+
+öyleyleyse programın kontrol yapısı
+
+	if (sayi >=0 && sayi < 10)
+	{
+		Sayı [0 - 10) aralığındadır.
+	}
+	else if (sayi>= 10 && sayi < 20 )
+	{
+		Sayı [10 - 20) aralığındaır
+	}
+	.
+	.
+	.
+	
+	
