@@ -1,0 +1,21 @@
+
+
+Tek şartı kontrol etmeyi ve aralık kontrol etmeyi öğrendik. Şimdi ise iç içe kontrol yapılarını öğrenmeye geldi. 
+
+
+Koşul_1
+	Koşul_2
+	DigerKoşul_2
+	DgerKoşul_2
+	
+DigerKoşul_1
+	Koşul_3
+	DigerKoşul_3
+		Koşul_4
+			Koşul_N
+	DigerKoşul_3
+	
+
+Buraya basit bir örnek iki sayının 5'e göre durumlarnı kıyaslayacağımız basit bir örnek yapmış olalım. 
+
+
