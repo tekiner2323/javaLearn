@@ -1,0 +1,49 @@
+
+
+switch - case
+
+Özellikle elektrik işleri ile uğraşanlar sürekli 'siviçleri' kontrol et bir nevi anahlaarı düğmeleri kontrol et derler. Bir arıza olduğu zaman hangi anahtar, hangi hatta sorun olduğunu anlamak için o bölgeyi açan veya kapatan anahtar, düğme, switch'lere basarlar. Yada normal kullanıcalar evlerinde lambaları açmak için düğmelere basarlar. Burada da tamamen o şekilde ilerleyen bir işleyiş vardır. 
+
+Switch yani anahtalar olan değişkeni seçersiniz. O değişkenin hangi seçeneğinde ne yağacağını belirlersiniz. 
+
+
+	switch(Degisken_adi)
+	{
+	case Degiskenin_alacagi_deger
+		işlem
+		işlem
+		işlem
+		break;
+	case Degiskenin_alacagi_deger_2
+	
+	
+		break;
+	case Degiskenin_alacagi_deger_3
+	
+	
+		break;
+	case Degiskenin_alacagi_deger_4
+	
+	
+		break;
+	default:
+	//hiç bir seçenek olmazsa girip işlem yapacağı kısım
+	break;
+	}
+	
+	
+	
+	
+	Bu yapıdadır switch - case yapısı. Her case deyiminden sonra değişkenin alabileceği bir değer alternatifi verilir. Eğer case'lerde verilen hiç bir alternatife uymazsa o zaman default deyimine gider ve oradaki yapılacak komutları yerine getirir. Break ile bu yapıdan çıkılır. 
+	
+	Switch - case yapısı pek tercih edilen bir yapı değildir. 
+	
+	
+	Break deyimi diğer tüm döngülerle kullanılabilir. if - for - while fakat döngüyü kırmak yerine döngü'yü normal şartlarla kırmak daha sağlıklıdır.
+	
+	
+	Konu ile ilgili örnekte Bir harf girecez ve hangi sırada olduğunu yacan bir yağı oluşturacaz.
+	
+	
+	
+	

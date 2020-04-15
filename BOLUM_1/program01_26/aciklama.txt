@@ -1,0 +1,3 @@
+
+
+Javada bazı özel durumlar tanımlanmıştır. Bunlar (NaN) syı değil, Infinity, -Infinity sonuçları alınabilir. Bu sonuçlar sadece float ve double için tanımlanmıştır.
