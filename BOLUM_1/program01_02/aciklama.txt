@@ -1,1 +1,0 @@
-Basit bir şekilde JOptionPage üzerinden bir uyarı yazısı verildi. 

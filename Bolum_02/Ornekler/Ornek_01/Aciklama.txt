@@ -1,0 +1,9 @@
+
+
+Şöyle basit bir oyun yapalım. Biz oynamyacaz şimdilik. Zar atalım. İki farklı nesne tanımlayalım. Bu iki nesne zar atsın. ve bu iki nesne kaç defa zar atınca bir birine eşit olduğunu ekrana yazdıralım.
+
+
+
+	zarAt() isimli metodu inceleyelim önelikle bu statik olmayan bir yada diğer değişle dinamik bir metotdur. Yani nesnesine özel bir fonksiton olacaktır. Böylelikle iki farklı zar atma olayını sağlamış olduk. 
+
+	

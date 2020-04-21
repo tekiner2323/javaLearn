@@ -1,5 +1,0 @@
-
-
-program01_22 de do while döngüsünü anlatmıştık. Şimdi ise örneğini yapacaz.
-
-Bunun için şöyle bir örnek verelim. Tabaklar için bir puan verelim. Tabak puanı 100 vee yukarısı ise yıkamadan çısın.

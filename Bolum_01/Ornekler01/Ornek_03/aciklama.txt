@@ -1,0 +1,12 @@
+Binom piramidini herkes bilir. En üstte bir tane yıldız ve bu aşağıya doğru gittikçe artan bir piramid şeklini alır.
+
+
+     *
+    ***
+   *****
+  *******
+  
+  gibi görünür 
+  
+  
+ Bir input ile kaç asatır yazacağımızı alıp bu sayıya göre binom açılıyor. Konsol ekranına yazdırılıyor.

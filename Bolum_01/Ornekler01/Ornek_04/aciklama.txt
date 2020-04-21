@@ -1,0 +1,5 @@
+
+
+iki sayı arasındaki asal sayıları bulup bunları ekrana yazdıran programı yazalım.
+
+

@@ -1,0 +1,18 @@
+
+
+Fibonacci serisini yazdıralım. 
+
+fibonacci serisi sayını kendisinden önceki iki sayının toplamı ile elde edilen sayı dizisidir.
+
+
+0 1 1 2 3 . . . . 
+
+Sonsuza kadar gider. 
+
+Ekrana şunu yazdıralım
+
+Fibonacci dizisnin 0. elemanı 0
+Fibonacci dizisnin 1. elemanı 1
+Fibonacci dizisnin 2. elemanı 1
+Fibonacci dizisnin 3. elemanı 2
+Fibonacci dizisnin 4. elemanı 3

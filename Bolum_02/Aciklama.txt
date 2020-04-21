@@ -1,0 +1,5 @@
+https://docs.oracle.com/javase/8/docs/api/
+
+https://devdocs.io/
+
+Bu sayfadan hali hazırda olan java kütüphanelerini görebilirsiniz.

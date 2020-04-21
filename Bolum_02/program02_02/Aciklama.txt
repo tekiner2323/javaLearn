@@ -1,0 +1,32 @@
+
+
+Metotlar
+
+
+	Bir işi yapmak için spesikif olarak yazılmış küçük program parçacıklarının tümüne verilen isimdir. Bu metotlar bir sınıfın içerisinde olmak zorundadılar. Metotlar tanımlanırken bir giriş, input, çalışması için gerekli parametre alıp alamayacaklı berlirtilir. 
+
+	Metotlar çağırıldıkları yere bir sonuç dondürür veya döndürmez. Eğer fonksiyon geriye değer DÖNDÜRMÜYORSA tanımlanırken "void" olarak belirtilir. Eğer çağırıldığı yere bir dönüş değeri döndürecekse o zaman tanımlanırken bu değişken türü kesinlikle belirtilmelidir. 
+	
+	O zaman örnek olarak faktoriel metotdu yazdığımızı düşünecek olursak.
+	
+	public static int faktoriel (int sayi)
+	{
+		.
+		.
+		.
+		return sonuc;
+	}
+	
+	int sayi faktorieli alınacak ve metodun girdisi, argümanı diye isimlendirir. return sonuc ise fonksiyorunun geri döndürüğü değerdir. 
+	
+	public ve static deyimlerine daha sonra değineceğiz.
+	
+	public static faktoriel(int sayi)
+	{
+		.
+		.
+		.
+		//Burda sonucu bir yere gönderemeyiz. Esipiri bir anlatışla 'koltuk elimizde kaldı' demek tam yeridir. Hesapladığımız değer elimizde kaldığından en fazla bir yere yazdırabiliriz.
+		System.out.println(sonuc);
+		
+	}

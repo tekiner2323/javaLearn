@@ -1,0 +1,7 @@
+
+
+	Değişken tanımlamayı gördük fakat şimdiye kadar tanımladığımız tüm değişkenler metotların içindeydi. Birde sınıfların içersinde bazı değişkenler varki bu değişkenler metotların içerisinde de kullanılabiliyor. 
+
+	Hatta ve hatta sınıf değişkenin adı ile metot değişkenin adı aynı ise; metot değişkeni geçerlidir. 
+
+	Metotlarda olduğu gibi değişkenlerde'de dinamik ve statik olarak iki çeşidi vardır. Eğer ön şartta belirtilmezse bu değişken dinamik olur ve nesnesine aittir. Static olarak belirtilirse tüm sınıfa ait olur. Çağrılma ve değiştirme tamamen nesnesine özeldir. 

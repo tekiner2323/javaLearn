@@ -1,0 +1,83 @@
+
+
+Nesne nedir ? Nasıl tanımlanır ? ve Metodlarda nasıl kullanılır ? 
+
+	Neydi bu nesne tabanlı programama işte burada biraz o OOP (Object Oriented Programing) burada biraz ona değineceğiz. 
+
+	
+	Aslında bir önceki bölümde anlatmadan mecbur olduğumuz için bazı nesneleri kullandık. Bunlardan en çok kullandığımız kullanıcıdan veri almak için kullandığımız Scanner dediğimiz nesne.
+	
+	Scanner nesnesi java.util kütüphanesinde bulunan bir nesne bizim için berlirlediğimiz yerde tarama yapan dinamik bir metot. 
+	
+	Statik metot ve Dinamik metot diye farklı kavramlarda girmeye başladı işler biraz karmaşıklaşıyor. Hala daha açıklayıcı bir önekle nasıl ifade edeceğimi bilemiyorum. Fakat yinede elimden geldiğince açıklamaya çalışacağım. 
+	
+	Öncelikle tanımları yapıp sonra ise daha açıklayıcı bir şekilde tanımlamaya çalışacam.
+	
+	Statik : TDK'dan ve diğer türkçe sözlüklerden baktığımızda bu kavram için duran, değişmeyen diye ifade ediliyor.
+	
+	Dinamik: TDK'dan ve diğer tükrçe sözlüklerden bakıldığında ise Canlı, etkin ve değişken diye ifade ediliyor. 
+	
+	Tanımlamarı yaptığımıza göre artık biraz daha anlamaya çalışalım. Şöyle bir örnek verelim. Bir okul düşünün okulun çalışanı kantinci öğretmen karakterleri üzerinden düşünelim. Kantici her zaman sabit bir iş yapmakta öğrenciden parayı alır ve o paranın karşılığında ürün verir. Öğretmen ise her öğrenciye öğrencinin yeteneklerine göre öğrenciye yaklaşır. Biraz daha ifade edici olduğunu düşünüyorum. Bu örneği biraz daha yazılım ile bağdaştıracak olursak öğretmen ve kantinci metot olsun. Bu iki metotdumuzda okul sınıfı içerisinde yer alıyor. Öyleyse iki metoduda çağırırken okul sınıfına başvuru yapmamız gerekecek. Buraya kadar herşey normal. Şimdi esas meselenin olduğu yerdeyiz. Statik ve dinamik noklarını daha anlaşılır kılacaz. 
+	
+	class okul{
+		
+		public static urun Kantinci(Giris Para)
+		{
+				.
+				.
+				.
+			return ürün;
+		}
+		
+		public bilgi Ogretmen(Giris ogrenci_duzeyi)
+		{
+			.
+			.
+			.
+			return bilgi;
+		}
+		public static void main(String[] args)
+		{
+		
+		}
+	}
+	
+	
+	Temel yapımız yukarıda ki gibi olacaktır. Şimdi ise main'in içerisinde olanları burada yazarak anlatmaya çalışalım. 
+		1) okul ogrenci1 = new okul()
+		2) ogrenci1_Urünü=ogrenci1.Kantinci(10tl);
+			//Kantinte tek ürün olduğunu ve tek fiyata satıldığını baz alalım. 
+		
+		3) ogrenci1_Bilgi=ogrenci1.Ogretmen(kapasite ögrenci 1)
+			//Her öğrencinin kapasitesi farklı olduğunu 
+		
+		4) ogrenci2_urun=Kantinci(10₺);
+		5) okul ogrenci2 = new okul();
+		6) ogrenci2_bilgi = ogrenci2.Ogretmem(ogrenci2 kapasite);
+		
+		4. satıra dikkat edelim. Kantinci özel bir iş yapmadığı için kantincen alışveriş yapmak için okul nesnesi olmanıza gerek yok. Ditekt olarak alışveri yapabilirsiniz. Fakat öğretmen öğrenciye özel ilgi duyacağından çıktı herkes için başka ve özel olackatır. 
+		
+		Özetleyecek okursak statik her zaman ve her koşulta tek çıktı üreten nesneden bağımsız çalışır. Dinamik ise her nesneye özel bir çıktı sağlar ve o çıktı tamamen o nesneye özel olur. Yani örneğimiz üzerinden devam edecek olursam. Ogrenci1 ile ogrenci2 nin bilgileri farklıdır. Bunlara yanlızca öğrenci nesneleri üzerinden ulaşabliriz.
+		
+		Static olarak tanimlanan metotlarin kendikendine yeterli metotlar olamasi gerekir. Yani içinde bulundugu sinifla veya baska siniflarla direk olarak veri alisverisi olamaz. Girdileri sadece girdi parantezleri () arasinda verilen degiskenlerdir.dinamik metotlar ise kendi siniflari ve diger siniflarla degisik yollardan bilgi ve degisken aktarimi yapabilirler 
+		
+	
+	Scanner giris = new Scanner(System.in); dedik sık sık.
+	
+	Scanner nesnesinden giris isimli bir değişken tanımladık. Yani yeni bir nesne ürettik. Fakat Scanner nesnesi input alan ve input almadan çalışmayan bir nesne. Bu yüzden terminalden çalıştığımız için giriş olarak 'sistemin girişini tara' diye ifade etmek pek yanlış olmaz. 
+	
+	Ve yine genellikle şöyle birşey kullandık
+	int x = giris.nextInt();
+	
+	şimdi ise şöyle düşünebiliriz. Giriş nesnesi bir tarayıcı, şimdi bu tarayıcıyı bir tam sayı tarayıcısı olarak çalışır.
+	
+	Eğer String taramak isteseydik giris.nextLine() dememiz gerekiyor. 
+	
+https://devdocs.io/openjdk~8/java/util/scanner
+	
+	diğet metotlarını inceleyebilirsiniz. 
+	
+	
+	
+	
+	

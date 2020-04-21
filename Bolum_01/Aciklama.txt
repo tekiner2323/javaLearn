@@ -1,0 +1,3 @@
+
+
+Öncelikle bu bölümde bir programlama dilinin temellerini. Temel yapıtaşlarını. Değişken nedir nerede ve nasıl tanımlanır. Döngü nedir nerede ve nasıl kullanılır. Karar yapıları nedir nasıl kullanır. gibi kavramlara yakından bakıp kullanımlarını öğrenecez.

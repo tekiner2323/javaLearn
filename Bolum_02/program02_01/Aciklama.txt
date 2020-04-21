@@ -1,0 +1,24 @@
+
+
+Bölüm açıklamasını okuduktan sonra buraya geçmenizi tafsiye ederim.
+
+Javada en çok kullanılan kütüphanelerden birisi math kütüphanesidir. Bu kütüphane içerisinde bir çok matematik ifadesini bizim için yazmışlardır. 
+
+Math.abs 	(x)		(Absolute) --> x(int,double,float) Girilen sayının mutlak değerini alır.
+Math.ceil	(x)		(ceil) --> x(int,double,float) Girilen sayıyı bir üst tamsayıya yuvarlar
+Math.floor	(x)		(Floor) --> x(int,double,float) Girilen bir sayıyı bir alt tamsayıya yuvarlar
+Math.con	(x)		(Cosine) --> x(int,double,float) 0<=x<=2*pi sayının kosinüs değerini verir.
+Math.sin	(x)		(Sinus) --> x(int,double,float) 0<=x<=2*pi sayının sinüs değerini verir.
+Math.tan	(x)		(Tangent) --> x(int,double,float) 0<=x<=2*pi sayının tanjant değerini verir.
+Math.acos	(x)		(Arc cosine) --> x(int,double,float) 0<=x<=1 sayının ters kosinüs değerini verir.
+Math.asin	(x)		(Arc sinus) --> x(int,double,float) 0<=x<=1 sayının ters sinüs değerini verir.
+Math.atan	(x)		(Arc Tangent) --> x(int,double,float) 0<=x<=1 sayının ters tanjant değerini verir.
+Math.atan2	(x,y)	(Arc Tangent) --> x ve y koordinat düzleminde bir noktanınn konumunu belirtirler.
+Math.exp	(x)		(Euler's Number to exponentiate) --> e(Euler sabiti) üssü x anlamına gelir e^x 
+Math.log	(x)		(Logarithms) --> Logaritma e tabanında x demektir başka bir değişle lnx ifadesinin sonucunu gösterir.
+Math.pow	(x,y)	(Power)	--> x üssü y demektir. 
+Math.max	(x,y)	(Maximum) --> x ve y değişlenleri içinden en büğüyünü verir.
+Math.min	(x,y)	(Minimum) --> x ve değişkenleri arasından en küçüğü
+Math.random	()  	(Random) --> 0 ile 1 arasında eşit yayılım oranı ile sayılar üretir.
+
+

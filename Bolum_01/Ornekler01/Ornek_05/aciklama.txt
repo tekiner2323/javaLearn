@@ -1,0 +1,3 @@
+
+
+Basitçe bir faktoriyel hesaplayan basit bir program yazalım.

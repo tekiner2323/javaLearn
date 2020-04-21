@@ -1,2 +1,0 @@
-Swing arayüzü ile aritmetik işlemlerin yapılması,
-Swing arayüzü ile input dialog ile veri girişinin alınması ve message dialog ile gösterilmesi

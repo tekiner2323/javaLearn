@@ -1,0 +1,28 @@
+Aynı isimli metotların bir arada kullanılması (Overloading)
+
+	Bir sınıfımız var ve bu sınıfımızın içerisinde faklı özelliklerde farklı işlemler yapılmasını istiyoruz. İşte burda aynı isimde olan ve farklı işelemleri yapması sağlanır. Peki bunu  nasıl yapacaz ? 
+	
+	
+	class sınıf_ismi
+	{
+		public static fonk_isim(double input);
+		{
+		
+		}
+		public static fonk_isim(float input);
+		{
+		
+		}
+		
+		public static fonk_isim(double input, float input)
+		{
+			
+		}
+	}
+	
+Şeklinde tanımlandığında fonksiyon kendisine verilen input'a göre işlem yapar ve o fonksiyon üzerinde çalışır
+
+
+	Şimdi şöyle bir örnek yapalım. üs alma overloading yazalım. Şöyle olsun. Fonksiyona tek argüman verirsek fonksiyon verilen sayını karesini alsın. Eğer iki argüman verirsek ve ilk argüman double, ikinci argüman int ise ilk argümanın ikinci argüman kadar kuvvetini alsın.
+	
+	

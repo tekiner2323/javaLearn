@@ -1,0 +1,9 @@
+Öz Yinemelemi Metotlar (Recursive)
+
+
+	Static ve Dinamik hakkında daha çok bilgiye sahip olduğumuza göre şimdi de kendi kendisini çağıran metotlara bakalaım. 
+
+	Bu metotlar kendi içlerinde kendilerini çağıracaklar. Anlaşılması bu bakımdan zordur. Örnekler içerisinde bir sayının istenilen değer kadar üs almasını sağlayan bir program ayrıca faktoriel için ayrı bir program yazalım. Bunu hem Recursive olarak hemde normal olarak tanımlayalım. Böylece iki kod bloğu arasıdaki farkı da daha rahat anlamış oluruz. 
+
+
+	Örneği detaylıca inceleyelim. İki farklı şekilde de işlemler yapılabiliyor. Recursive olmayan ve olanlar ismlerden ayrılmışlar. Normal olan metotda for döngüsü ile sağladığımız işi özyinelemeli metotda if ile yaptık. Birşeyleri kontrol etmek için. çok daha farklı kullanım yerleri olabilir. 
