@@ -3,3 +3,8 @@ https://docs.oracle.com/javase/8/docs/api/
 https://devdocs.io/
 
 Bu sayfadan hali hazırda olan java kütüphanelerini görebilirsiniz.
+
+
+Bu bölümde metotlar üzerinde bolca örnekler yapıp farklarını anlatmaya çalışacağım. Bunun için yaptığım araştırmalarda java 7 ve öncesinde fonksiyon tnaımlanıken hiç birşey belirtilmezse statik yapı halinde olurken 8 ve sonrasında static olduğunu belirtilmek zoruna getirmişler. Bu yüzden araştırma yaparken hangi java sürümünü olduğuna yada 7 ve öncesi mi ? 8 ve sonrası mı diye bakmanızı tafsiye ederim. 
+
+

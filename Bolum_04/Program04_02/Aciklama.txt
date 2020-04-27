@@ -1,0 +1,94 @@
+Çok boyutlu diziler
+
+	Geçen dersimizde yaptığımız gibi dizi tanımlayacaz ama bu sefer dizimiz tek boyutlu olmayacak. Peki nedir bu boyut diye kastettiğimiz. 
+
+	Geçen dersimizde tek boyutlu dizimizi bir çubuk parçası diyecek olursak, çok boyutlu dizimize ise merdiven dememiz hiçde yanlış olmaz. 
+	
+	Çift boyutlu diziler tasarlanırken matrisler referans alımıştır.
+	
+	Aslında tek boyutlu dizilerde birer matristir. Fakat sadece tek satır üzerinden işlem görürler. 
+	
+	Önce basitce matrisleri tanıtacak olursak. 
+	
+	A[3][4] (köşeli parantezleri içerisinde belirtilenler indistir.)
+	
+	3 satırlı ve 4 sutunlu bir matristir. Satırlar alt alta bulunurlar. Sütunlar ise yan yana bulunurlar.
+	
+	1		2		3		10	
+	4		5		6		11
+	7		8		9		12
+	
+	şekilde yazılır. Görüldüğü üzere üç adet satırtan ve 4 stundan oluşmuştur.
+	
+	Dizide tekrar eden elemanların olmamasına özen gösterdim. Bu gerçek bir matris olsaydı, 5 elamanın ifade etmek için A[2][2] şeklinde söyleyebilirdik. A[2][3] = 6 şeklinde örnekleri uzatabiliriz.
+	
+	Fakat java dilinde indisler her zaman 0 dan başlar dolayısıyla 5'in adresi için A[1][1] 6 için ise A[1][2] şekilde adreslemek yanlış olmaz.
+	
+	Yukarıda örneklemenin nasıl olduğunu anlattığımıza göre birde tanımlamaların nasıl yapıldığına bir bakalım. 
+	
+	Şöyle bir örneği modelleyelim. 5 kişilik bir listemiz var ve bu listemizide isim ve soy isimleri ayrı bir şekilde saklamak istiyoruz.
+	
+1)	String[][] isListe = new String[5][2]
+2)	String[][] isListe = new String[2][5]
+	
+	İkiside bir birinden farklıdır fakat ikiside doğrudur.
+	
+	1. için 5 satırı 2 sutunu vardır
+	
+			0. sütün		1. sütün
+0. satır	Ahmet			GÜZEL
+1. satır	Eşref 			ŞİŞMAN
+2. satır	Muzaffer		PALABIYIK
+3. satır	Nalan			GÜZEL
+4. satır	Jülide			ATEŞ
+
+şekilde isimleri ve soy isimleri birbirinden muhafaza bir şekilde saklamış olduk. 
+
+	2. tanımla şekline bakalım birde
+	
+			0. sütün	1.sütün	2.sütün		3.sütün	4.sütün
+0. satır	Ahmet		Eşref	Muzaffer	Nalan	Jülide
+1. satır	GÜZEL		ŞİŞMAN	PALABIYIK	GÜZEL	ATEŞ
+	
+	
+	İkisininde aslında bir birinden farklı olduğunu gördük. Fakat bu örnek için hangisini tercih edeceğiniz size kalmış.
+	
+	Örneği daha iyi anlamak için o çok ünlü Sezarın yaptığı gibi mesaj gönderelim.
+	
+	
+	
+	Sezar mesaj göndermek için matrisleri akıllıca kullanırdı. Nasıl mı ? Mesajını yazar, harflerini sayar ve bunu tam kare matris olacak şekilde sırasıyla satırlara yazardı. Sonra stunlardan okuyarak bunu yeniden mesaj haline getirir ve savaş sırasında komutanları ile haberleşmede kullanırdı. Bu yöntem tarihre bilinen ilk kriptolu mesaj olarak bilirnir.
+	
+	Sezarın Mesajı= Askerler gün doğumunda batıya
+	
+	A   s   k  e   r   l
+	e   r   _  g   ü   n   
+	_   d   o  ğ   u   m   
+	u   n   d  a   _   b   
+	a   t   ı  y   a   _
+	_   _   _  _   _   _
+	 
+	Not: Mesajda bulunan boşluklar _ ile ifade edildi
+	Sezarın Şifresi= Ae Ua srdnt k odı egğay rüu a lnmb
+	
+	Evet şimdi bunu programlamış olalım. Sınıf kullanarak yapalım.
+	
+	
+	Örneği uzun uzun inceleyeniz. Bazı ekran çıktıları ile kontrol edebilirsiniz.
+	
+	
+	Anlaşılacğaını düşünüyorum. Bu durumda şifreli mesajı anlayacak anlaşılır hale getirecek program parçacığınıda siz yazınız 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

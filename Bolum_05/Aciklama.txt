@@ -1,0 +1,8 @@
+Abstract ve İterface
+
+
+Abstract:
+
+	Abstract'ı bir kroki olarak düşünebiliriz. Nasın yani hemen şöyle anlatayım. Şöyle örneklendirmeye çalışasım. Bir takım var dediğimizde her takımın bir başkanı ve oyuncuları vardır. Fakat bu takım futbol takımıda olabilir. Basketbol takımıda olabilir. 
+
+Abstract ve İnterface tanımmları yapılmış ve anlatılmış anlatacak kadar idrak edemedim. Bölüm atlandı...

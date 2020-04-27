@@ -1,0 +1,38 @@
+	
+
+Tek Boyutlu Diziler - Arrays
+
+	Programlamada bir bazen aynı veri tipinden çok adet değişken bloğu elimizde bulunur ve bunlar için diziler tanımlamamız gerekmektedir. 
+	
+	Dizileri, günlük hayatta kullandığımız kolilere benzetebiliriz. Kolinin iki önemli parametresi vardır. içinde ne bulunduğu ve kaç tane olduğu. Dizileri tanımlarken bu iki bilgiyi vermek zorundayız.
+	
+	ör:
+	1)	String haftanınGünleri[]=new String[7];
+	2)	String[] haftanınGünleri=new String[7];
+	3)	String haftanınGünleri[]={Pazartesi, Salı, Çarşamba, Perşembe, Cuma, Cumartesi, Pazar};
+		
+		İki örnektede anlaşılacağı gibi "haftanınGünleri" adlı değişkenin başında yada sonunda [](köşeli parantezleri= bulunduğundan bunun bir dizi olduğu belirtilmiş. İçerisinde String tipinden veriler saklayacağı söylemiş.
+		
+		Eşittir ifadesinden sonra ise kaç tane saklayacağını belirtmiş. Fakat 3 numaralı değişkeni diğerlerinden ayıran ise değerlerinin tanımlanırken atanmış olmasıdır. 
+		
+		Örnekte verilen tüm tanımlamalar 7 elemanlıdır. haftanınGünleri[n] ile istenilen elemana ulaşılabilir. n burada indis(index) olarak isimlendirilir ve 0 dan başlayıp eleman sayının bir eksiğine kadar devam eder. 3. tanımlama örneğininde değerler atanmıştır onu referans alarak şunları diyebiliriz:
+			haftanınGünleri[0] --> haftanınGünleri dizisinin 0. elemanı "Pazartesi" dir.
+			haftanınGünleri[3] --> haftanınGünleri dizisinin 3. elemanı hayır hayır çarşamba değil "Perşembe"dir. çünkü ilk indis daima 0 dır ve ordan saymaya başlar.
+			
+		Gelelim 1. ve 2. örnekte verlien tanımlama biçimine bunlara nasıl atama yapacaz. Hemen örnek ile anlatmaya çalışalım.
+		haftanınGünleri[0]="ErtGünü";
+		haftanınGünleri[3]="KodGünü";
+		.
+		.
+		.
+		Şekilnde atamalar yapılır.
+		haftanınGünleri[7]="hataGünü";
+		şeklinde bir tanımlama yapmaya çalışırsanız taşma hatası alırsınız. Çünkü dizinizi 7 elemanlı tanımladınız ve bu dizinin indisleri 0 1 2 3 4 5 6 dır.
+		
+		Anlamak için şöyle bir örnek yapalım. Bir yılda 12 ay var ve her ayın gün sayıları birbirinden farklıdır. Hangi ayda kaç gün olduğunu tutan dizi yapalım. Sonra bunu yazdıralım.
+		
+		
+			
+		
+		
+		

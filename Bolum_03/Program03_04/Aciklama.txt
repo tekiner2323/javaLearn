@@ -1,0 +1,48 @@
+Erişim Belirteçleri
+Private Varibles - Özel Değişkenler
+Protected Varibles - Korumalı değişkenler
+
+	Herşey tamam herşey mükemmel şimdi birde özel değişkenler çıktı karşımıza. 
+	
+	Özel değişkenler daha çok güvenlik için kullanılır. Araba sınıfımız üzerinden devam edecek olursak, araba alırken bir tane motor numarası vardır ki bu numara asla değişmez ve araç alırken gelen bir güvenlik numarasıdır. Bu numaranın başka yerden erişilip değiştirilmesini istemeyiz. Bunu sadece tanımlarken belirtmemiz yeterlidir. 
+	
+	Peki ama bu numarayı yanlış girmişsek ne yapmalıyız ? madem özeldi ulaşılamazdı. İşte ekrana nasıl yazdırdıysak yine bir metot üzerinden ulaşılıp değiştirmek mümkündür. Yani özel sınıf değişkenine yanlızca o sınıfın kendi metodu erişebilir. Bizde o metot üzerinden değişim sağlayabiliriz.
+	
+	Kullanmadık ama birde protect var. Bu işe oluşturduğumuz nesneden başla bir nesne oluşturursak aktarılacak demektir. 
+	
+	Bu kullandığımız kelimelerin genel adı Erişim belirteçleridir. 
+	
+	public					Bütün Sınıflar Erişebilir
+	private					Alt sınıflar dahil hiçbir sınıf erişemez
+	protected				Alt sınıflar ve aynı paketler erişebilir
+	private protected		Yanlızca alt sınıflar erişir
+	<default> 				Aynı paketler erişebilir.
+	
+
+	Genel bir toparlayacak olursak, metod veya değişken tanımlarken erişim belirteci ve akabinde  statik veya dinamik belirteci sonrasında ise tipini belirtiriz
+	
+	 1		2		3		4		
+	 1=public - private - protected - private protected - <default>
+	 2=Static - <default>
+	 3=void - int - double - String - ...
+	 4= degisken-metot_ismi
+	 
+	 şeklinde yerleştirilerek tanımlama tamamlanmış olur.
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 

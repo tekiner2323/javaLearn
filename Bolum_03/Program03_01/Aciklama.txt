@@ -1,0 +1,8 @@
+
+
+Şimdi genel olarak bir sınıf oluşturup bir kaç farklı nesne oluşturup yapılarını incelemiş olalım. 
+
+
+Araba diye bir sınıf yaptık. Bu sınıf sadece değişken saklıyor. Her değişkeni nan-statik, dinamik olan değişkenler. Bu değişkenler yanlızca kendi nesnesine ait. 
+
+ornek 1 ile ornek2 yi birbirinden ayrıldığını gördünüz

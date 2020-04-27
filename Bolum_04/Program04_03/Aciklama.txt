@@ -1,0 +1,39 @@
+
+
+
+	Tek boyutlu ve çok boyutlu dizileri gördük işledik. Nelere benzediği neler yapılabildiği konusunda artık hemfirkiriz. Şimdi ise metotlara diziler gönderip geri alalım. Böyece metotların dizlerle kullanımını görmüş olalım.
+
+	Öncelikle dizi olarak argüman alan bir metot tanımlayalaım. Muhtemelen aşağıdaki gibi olabilirdi.
+	
+		double ortalama(int[] notTablo)
+		{
+			.
+			.
+			.
+			return ortalama;
+		}
+		
+		
+		şeklinde bir metot ile elimizde olan bir not tablosunun diretk olarak ortalamasını alabiliriz ve tek bir değişken gönderebiliriz.
+		
+		Birde dizi return eden - geri dönderen bir yapıda söz konusudur.
+		
+		double[] rndSayiUret(int adet)
+		{
+		
+			int[] uretilensayilar{1,2,3,4 .... adet};
+			
+			.
+			.
+			.
+			
+			return uretilensayilar;
+					
+		}
+		
+		
+		Dizi argüman alıp dizi gönderen metot yazmakta mümkündür. 
+		
+		Örnek olarak elimizde 5 kişinin notunun olduğu bir dizimiz olsun. Bu notların ortalamasını, sıralamasını ve yuvarlamasını yapan sınıfı tanımlayıp çıktılarına bakalım.
+		
+

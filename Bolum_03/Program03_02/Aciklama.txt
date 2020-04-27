@@ -1,0 +1,14 @@
+
+	Kurucu(Constructor) yapı olarak overlodaing'e çok benzer. Burada kullanım amacı ise nesne tanımlanırken neler olacağıdır.
+
+Overloading bir metot tanımlarken kesinlikle metotun nasıl olacağını belirtmek zorundayız. Geri değer döndürecek mi ? yoksa sadece void mi olacak gibisinden.... Yapıcı-Kurucu(Constructor) bir yapıda bunlar yok. Sadece sınıf ismi ile aynı isimde olan ve argümanları değişen bir takım nesneler tanımlayacaz.
+
+
+Bunun için bir önceki örnek olan Program03_01 de ele aldığımız Araba classı örneği üzerinden devam edelim
+
+	Gördüğünüz iki adet kurucu sınıf tanımladık. Bunlardan 13. satırda yer alan hiç bir argüman ve işlem yapmayan Araba() nesnesi bu nesne ilk(Program03_01) yazdığımız örneği temsilen durmaktadır. Öte yanadan ise 17. satırda olan marka model ve tip argümanlarını alan bir kurucu. Sonuç itibari ile isimleri yazdırıldığında aynı sonuçlara ulaştık. 
+
+	Yerine göre bazı işlemlerde bize çok rahatlık sağlamaktadır.
+
+
+

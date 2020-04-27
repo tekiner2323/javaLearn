@@ -1,0 +1,43 @@
+THIS ve SINIF İÇİ METOTLAR
+
+	Şimdi ise oluşturduğumuz sınıfta bulunan bir metot yazalım ve bunu sınfa özgü yapalım. Bir araba sevdasıdır aldı bizi gidiyor. Yine geçen iki programda yaptığımız gibi aynı örnek üzerinden gidelim. 
+
+
+	Şöyle yapalım. Yeni bir yapıcı sınıf tanımlayalım. Bir arabanın tüm özelliklerini içerisinde barındıralım ve bize aracın yapabileceği en fazla hızı hesaplasın. Bunun için tamamen hayali bir formül kullanalım. Söyle olsun
+
+	Hız=motorHacmi*0.01+motorGücü*2+motorTorku.0.01
+	
+	Bu şekilde hesaplayıp tanımlı olan araçlardan hangisinin hızlı olacağını yazdıralım. 
+	
+	Şimdi programı yazarken bazı yerlerde this yazdığımı gördünüz. Nedir u-lan bu this dediniz. Ben duyum. Class değişkeni içerisinde bir değişken ve birde metot içerisinde bir değişken var örneğimizde.
+	
+	Araba(String marka, String model, String tip, double motorHacmi,	int motorGucu, int motorTorku)
+	{
+		this.marka=marka;
+		this.model=model;
+		this.tip = tip;
+		this.motorHacmi=motorHacmi;
+		this.motorGucu=motorGucu;
+		this.motorTorku = motorTorku;
+	}
+	
+	Classın içerisindeki şu bölümü inceleyelim. Araba yapıcısının aldığı argümanları genel olarak tanımlanan değişkenlere atadık. 
+	
+	Araba yapıcısının model argümanı ile araba sınıfının model argümanı tamanen aynı özelliklere sahip. İşte "this" değimi burada devreye giriyor. "this" ile işaretlenen yada vurgulanan araba sınıfının değişkenine işaret ediyor. "this" olarak işaretlemeden bir metodun içerisinde kullanılarsak ise o değişkenin değişkeni olarak isimlendirirlir.
+	
+	Araba(String marka, String model, String tip, double motorHacmi,	int motorGucu, int motorTorku)
+	{
+		this.marka=marka;
+		this.model=model;
+		this.tip = tip;
+		this.motorHacmi=motorHacmi;
+		this.motorGucu=motorGucu;
+		this.motorTorku = motorTorku;
+		
+		model=model+"*";
+		this.model=model;
+	}
+	
+	Yukarıdaki yapıcıda en alt satırda bulunan "model=model+"*";" ifadesi metot değişkenini değiştirir.
+	Ondan sonraki satırda bulunan "this" ile işaretlenmiş satırda bulunan sınıf değişkeni etkilenmiş olur.
+	

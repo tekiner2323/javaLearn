@@ -1,0 +1,12 @@
+
+
+	Bu bölümde genel olarak sınıflar üzerinde konuşacağız. Sınıf, Nesne, Metot, Constructor(kurucu) kavramlarını açıklayıp örnekler vereceğiz. 
+
+
+	Şimdi ise sınıf ile nesne arasında ki farkı açıklamaya çalışayım.
+
+	Sınıf genel nesne ise daha spesifik bir açıklamdır. Biraz daha açıklamaya çalışayım. "Araba" dedimiz zaman herkesin aklında 4 tekerlekli, dreksiyonu ve vitesi olan, bir motor sayesinde yakıt'ı potansiyel enerjisi kinetik enerjiye çevirerek hareket eden bir nesne canlanır aklınızda. Fakat şöyle bir cümle kursam: "Ford Ranger 3.6D 7 otomatik" Burada ise aklınıza çok spesifik bir model canlandı. İşte araba bir sınıd iken ford diye tanımladığımız bir nesne olur. 
+
+	Sınıf değişkenleri içersinde değişken ve metot barındırabililer. İkiside şart değildir.
+	
+	// Kitabın  -135. sayfasında olan sınıfları başka bir sınıfta nesne olarak çağırarak bir araya getirme (composition) İşlenmesi. - 136.  KALITIM YOLUYLA ALT SINIFA BAGLANMIS ÜST SINIF REFERANSI ÜZERINDEN ALT SINIFI ÇAGIRMA - 137. 3.9 NESNEYi DiNAMiK OLARAK SiLMEK FINALIZE() METOTU  - işlenmedi

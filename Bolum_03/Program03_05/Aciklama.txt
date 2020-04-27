@@ -1,0 +1,9 @@
+Kalıtım - Miras - INHERITANCE (exdtends)
+
+	Geçen dersimizde Program03_04'de erişim ön eklerini gördük ve ne işe yaradığını anlamaya çalıştık. Şimdi ise bir sınıf kurarken başka bir sınıftan miras alalım. Miras almak bazı kaynaklarda kalıtım diye nitelendirilebilir. 
+
+ 	Peki neden miras alırız başka sınıflardan ? Çünkü aynı şey başka bir sınıfta varsa neden onu tekrar yazalım değil mi ? Araba sevdamıza geri dönecek olursak birde kamyon sınıfı yazacak olursak, marka, model, motor hacmi, motor numarası gibi bileşenler aynı kalacaktır. Fakat bu sefer ne eklenecek. Kamyonun taşıma sınıfı veya taşıma kapasitesi gibi yeni bir bileşen olacak. 
+ 	
+ 	Öte yandan kamyon bir araba olmadığından ve taşıma kapasitesini araba sınıfında koyacağımız uygun bir değişken olmadığından orada saklayamayacaz. Bu sebepten dolayı yeni bir sınıfa ihtiyacımız var. İşte bu yüzden miras alacaz. Hadi örneğimizi inceleyelim.
+ 	
+ 	Örnekte deneyerek şu sonuçlara varabilirsiniz. Araba Nesnesinin Motor No değişkenini kalıtım sağlayamazsınız. Haliyle ona ulaşan getMotorNo metodunu yeniden oluşturmanız gerekmektedir. 
